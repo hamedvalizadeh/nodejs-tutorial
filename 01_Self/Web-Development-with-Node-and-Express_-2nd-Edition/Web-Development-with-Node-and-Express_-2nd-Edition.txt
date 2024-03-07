@@ -1,0 +1,6 @@
+to skip chromiuim download when installing (( puppeteer )) followi these steps:
+ - dwonload chromium from link (( https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win64/chrome-win64.zip )) and unzip the zip file where-ever you want. i extracted in (( D:\01_Programs\35_Chromium\chrome-win64 ))
+ - go to (( Environment Variables )) 
+ - in (( System variables )) add two following variables:
+    1) PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = true
+    2) PUPPETEER_EXECUTABLE_PATH = D:\01_Programs\35_Chromium\chrome-win64\chrome.exe
