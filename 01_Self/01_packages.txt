@@ -1,9 +1,14 @@
 Unit Test:
  - Jest
+ - Mocha 
+ - Jasmine
+ - Ava
+ - Tape
 Integrity Test:
  - Puppeteer
-Compile Error:
- - EsLint
+Compile Error (Linting):
+ - ESLint
+ - JSHint
 Load Test:
  - Artillery
 Log:
@@ -14,3 +19,6 @@ Request:
 State:
  - cookie-parser
  - express-session
+Hosting:
+ - pm2 (https://medium.com/@engr.mmohsin/how-to-host-nodejs-on-windows-server-e9bd38b6b6d5)
+ + C:\Windows\System32\drivers\etc\hosts
